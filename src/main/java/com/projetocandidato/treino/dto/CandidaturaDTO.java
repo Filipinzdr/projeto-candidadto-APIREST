@@ -4,12 +4,12 @@ import com.projetocandidato.treino.domain.Candidato;
 import com.projetocandidato.treino.domain.Vaga;
 
 public class CandidaturaDTO {
-    private long id;
+    private Long id;
     private Candidato candidato;
     private Vaga vaga;
 
 
-    public CandidaturaDTO(long id, Candidato candidato, Vaga vaga) {
+    public CandidaturaDTO(Long id, Candidato candidato, Vaga vaga) {
         this.id = id;
         this.candidato = candidato;
         this.vaga = vaga;
@@ -18,11 +18,12 @@ public class CandidaturaDTO {
     public CandidaturaDTO() {
     }
 
-    public long getId() {
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

@@ -1,24 +1,25 @@
 package com.projetocandidato.treino.dto;
 
 public class CandidatoDTO {
-    private long id;
+    private Long id;
     private String nome;
     private String habilidade;
 
     public CandidatoDTO() {
     }
 
-    public CandidatoDTO(String habilidade, String nome, long id) {
+    public CandidatoDTO(String habilidade, String nome, Long id) {
         this.habilidade = habilidade;
         this.nome = nome;
         this.id = id;
     }
 
-    public long getId() {
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

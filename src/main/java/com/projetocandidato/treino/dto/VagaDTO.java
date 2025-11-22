@@ -1,7 +1,7 @@
 package com.projetocandidato.treino.dto;
 
 public class VagaDTO {
-    private long id;
+    private Long id;
     private String titulo;
     private String habilidade;
 
@@ -9,18 +9,18 @@ public class VagaDTO {
     }
 
 
-    public VagaDTO(long id, String titulo, String habilidade) {
+    public VagaDTO(Long id, String titulo, String habilidade) {
         this.id = id;
         this.titulo = titulo;
         this.habilidade = habilidade;
     }
 
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

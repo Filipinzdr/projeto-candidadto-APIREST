@@ -1,4 +1,4 @@
-package com.projetocandidato.treino.aplicacaomain;
+package com.projetocandidato.treino;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
